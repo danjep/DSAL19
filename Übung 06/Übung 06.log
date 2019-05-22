@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.1)  22 MAY 2019 12:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.14)  22 MAY 2019 16:40
 entering extended mode
 **"./Übung 06.tex"
 ("Übung 06.tex"
@@ -606,9 +606,6 @@ File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
 
 LaTeX Warning: Unused global option(s):
     [graphics,14pt].
@@ -784,48 +781,49 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 62.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
-
- []
-
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 92.
+(Font)              <10> on input line 72.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 92.
+(Font)              <7> on input line 72.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 92.
+(Font)              <5> on input line 72.
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--106
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--112
 
  []
 
 [1
 
-{C:/Users/Danje/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+{C:/Users/danje/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 ("Übung 06.aux") ) 
 Here is how much of TeX's memory you used:
- 6059 strings out of 493312
- 83216 string characters out of 3138899
- 168491 words of memory out of 3000000
- 9456 multiletter control sequences out of 15000+200000
+ 6053 strings out of 493312
+ 83142 string characters out of 3138899
+ 169622 words of memory out of 3000000
+ 9452 multiletter control sequences out of 15000+200000
  52723 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,49p,285b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,7n,40p,325b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.en
 c}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1
@@ -833,7 +831,7 @@ iKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/lm/lmr17.pfb>
-Output written on "Übung 06.pdf" (2 pages, 116268 bytes).
+Output written on "Übung 06.pdf" (2 pages, 117817 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
