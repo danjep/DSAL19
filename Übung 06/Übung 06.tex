@@ -1,0 +1,125 @@
+%doc
+\documentclass[a4paper,graphics,14pt]{article}
+\pagenumbering{arabic}
+\usepackage[margin=1in]{geometry}
+
+%packages
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{setspace}
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{color}
+%\usepackage[left=3cm,right=3cm,top=1cm,bottom=4cm]{geometry}
+
+
+%Code integrieren
+\definecolor{gray}{rgb}{0.96,0.96,0.96}
+\lstset{
+	language=bash,
+	basicstyle=\ttfamily,
+	numbersep=5pt,
+	backgroundcolor=\color{gray},
+	showspaces=false,
+	frame=single,
+	tabsize=2,
+	breaklines=true,
+	prebreak={\textbackslash}
+}
+\lstset{literate=%
+  {Ö}{{\"O}}1
+  {Ä}{{\"A}}1
+  {Ü}{{\"U}}1
+  {ß}{{\ss}}1
+  {ü}{{\"u}}1
+  {ä}{{\"a}}1
+  {ö}{{\"o}}1
+}
+
+
+\author		{ \Large Danje Petersen 379748}
+\title{ \Huge Datenstrukturen \& Algorithmen \\
+		\huge Übungsblatt 06 | Tutorium 2}
+\date{13.06.2018}
+
+
+%commands
+\newcommand{\aufgabe}[1]{\section*{Aufgabe #1}}
+\newcommand{\apt}[1]{\subsection*{#1:} }
+\newcommand{\RM}[1]{\MakeUppercase{\romannumeral #1{}}}
+
+
+\begin{document}
+
+\doublespacing
+\maketitle
+\onehalfspacing
+
+\aufgabe{H16}
+
+quicksort() wird rekursiv aufgerufen.
+
+\apt{quicksort(0,5)}
+Anfang: \hspace{1cm} [4,1,3,2,5,9] \\
+Ende: \hspace{1,33cm} [2,1,3,4,5,9] \\
+
+\apt{quicksort(0,2)}
+Anfang: \hspace{1cm} [2,1,3] \\
+Ende: \hspace{1,33cm} [1,2,3] \\
+
+\apt{quicksort(4,5)}
+Anfang: \hspace{1cm} [5,9] \\
+Ende: \hspace{1,33cm} [5,9] \\
+
+
+\aufgabe{H17}
+Man braucht ein Hilfsarray mit k Einträgen. Man zählt wie oft jeder Eintrag vorkommt und trägt diese Anzahl pro Wert in das Hilfsarray ein. \\
+Danach addiert man die Zahlen so auf, dass man an der Stelle für jeden Wert die letzte zukünftige Adresse dieses Wertes hat. \\
+Man geht dann das ursprüngliche Array von hinten nach vorne durch und setzt den Wert den man vorfindet in ein neues Array der selben Länge an die letzte Adresse, welche im Hilfsarray gespeichert ist und zählt dann eben diesen Eintrag um eins herunter. \\
+
+
+\aufgabe{H18}
+
+\apt{a) Heapsort}
+
+$[10,9,3,4,8,6,5,2]$ \\
+$[2,9,3,4,8,6,5,10]$ \\
+$[9,2,6,4,8,3,5,10]$ \\
+$[5,2,6,4,8,3,9,10]$ \\
+$[8,5,6,4,2,3,9,10]$ \\
+$[3,5,6,4,2,8,9,10]$ \\
+$[6,5,3,4,2,8,9,10]$ \\
+$[2,5,3,4,6,8,9,10]$ \\
+$[5,2,3,4,6,8,9,10]$ \\
+$[4,2,3,5,6,8,9,10]$ \\
+$[4,2,3,5,6,8,9,10]$ \\
+$[3,2,4,5,6,8,9,10]$ \\
+$[2,3,4,5,6,8,9,10]$ \\
+$[2,3,4,5,6,8,9,10]$ \\
+
+\apt{b) Mergesort}
+
+\begin{center}
+\doublespacing
+$[3,9,6,4,8,10,5,2]$ \\
+
+$[3,9,6,4]$ \hspace{0,7cm} $[8,10,5,2]$ \\
+$[3,9]$ \hspace{0,7cm} $[6,4]$ \hspace{0,7cm} $[8,10]$ \hspace{0,7cm} $[5,2]$ \\
+$[3]$ \hspace{0,7cm} $[9]$ \hspace{0,7cm} $[6]$ \hspace{0,7cm} $[4]$ \hspace{0,7cm} $[8]$ \hspace{0,7cm} $[10]$ \hspace{0,7cm} $[5]$ \hspace{0,7cm} $[2]$ \\
+$[3,9]$ \hspace{0,7cm} $[4,6]$ \hspace{0,7cm} $[8,10]$ \hspace{0,7cm} $[2,5]$ \\
+$[3,4,6,9]$ \hspace{0,7cm} $[2,5,8,10]$ \\
+$[2,3,4,5,6,8,9,10]$ \\
+\end{center} 
+
+
+
+
+
+\end{document}
