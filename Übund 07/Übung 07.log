@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.14)  30 MAY 2019 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.14)  31 MAY 2019 11:17
 entering extended mode
 **"./Übung 07.tex"
 ("Übung 07.tex"
@@ -788,45 +788,46 @@ Package pdftex.def Info: Vergleichsbaum.png  used on input line 69. on input li
 ne 69.
 Package pdftex.def Info: Requested size: 301.12732pt x 301.12732pt on input lin
 e 69.
- [1
-
-{C:/Users/danje/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Vergleich
-sbaum.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 78.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 78.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 78.
+ [1
+
+{C:/Users/danje/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Vergleich
+sbaum.png>]
 <Tiefensuche.png, id=12, 383.4325pt x 226.8475pt>
 File: Tiefensuche.png Graphic file (type png)
 <use Tiefensuche.png>
-Package pdftex.def Info: Tiefensuche.png  used on input line 90. on input line 
-90.
+Package pdftex.def Info: Tiefensuche.png  used on input line 100. on input line
+ 100.
 Package pdftex.def Info: Requested size: 362.37569pt x 214.40317pt on input lin
-e 90.
+e 100.
 
 [2 <./Tiefensuche.png>] ("Übung 07.aux") ) 
 Here is how much of TeX's memory you used:
  6064 strings out of 493312
  83349 string characters out of 3138899
- 165622 words of memory out of 3000000
+ 166622 words of memory out of 3000000
  9460 multiletter control sequences out of 15000+200000
  52723 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,40p,280b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,7n,40p,309b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
-thsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program 
+nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
+.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program 
 Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/font
 s/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
-/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmsy10.pfb>
-Output written on "Übung 07.pdf" (2 pages, 154586 bytes).
+/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on "Übung 07.pdf" (2 pages, 182245 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -52,7 +52,7 @@
 
 %commands
 \newcommand{\aufgabe}[1]{\section*{Aufgabe #1}}
-\newcommand{\apt}[1]{\subsection*{#1:} }
+\newcommand{\apt}[1]{\subsection*{#1} }
 \newcommand{\RM}[1]{\MakeUppercase{\romannumeral #1{}}}
 
 
@@ -68,9 +68,9 @@
 
 \includegraphics[scale=0.3]{Vergleichsbaum.png}
 
-Es ist möglich die Richtige Reihenfolge zu finden, vorausgesetzt man weiß welcher Schlüssel der kleinste und welcher der größte ist.
+Es ist möglich die Richtige Reihenfolge zu finden.
 
-\newpage
+
 
 \apt{b)}
 Von den 6 Permutationen benötigen 4 drei Vergleiche und 2 zwei Vergleiche (siehe Vergleichsbaum in a)).
@@ -81,6 +81,16 @@ Von den 6 Permutationen benötigen 4 drei Vergleiche und 2 zwei Vergleiche (sieh
 
 
 \aufgabe{H20}
+
+\apt{a)}
+Bei n = 6 werden bei dem Array [3,1,2,6,5,4] maximal 2 Einträge auf dem Stack gespeichert.
+Dies entspricht $\frac{1}{3} * n$ und fällt somit unter $\Omega(n)$.
+
+\apt{b)}
+Der Speicherverbrauch lässt sich auf $O(\log{(n)})$ indem man bei jeder Auswahl des Pivot Elements ein Minimum sucht und dieses wählt. Somit steht immer nur ein Eintrag im Stack also $\frac{1}{n} \subset O(\log{(n)}$. Allerdings würde dies die Laufzeit stark beeinträchtigen. 
+
+\apt{c)}
+Ja, die Permutationen der verbleibenden Elemente sind gleich wahrscheinlich, weil kein Element aufgrund seines Wertes seine Position verändert, sondern zufällig.
 
 
 
